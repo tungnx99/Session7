@@ -26,7 +26,7 @@ namespace Session7.Controllers
             return CommonResponse(result);
         }
 
-        [Authorize(Roles = AccountRole.Constants.Admin)]
+        [Authorize(Roles = AccountRole.Constants.Admin, Policy = "IsTony")]
         [HttpGet]
         public IActionResult GetInformation()
         {

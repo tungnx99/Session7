@@ -14,6 +14,9 @@ builder.Services.AddSwaggerGen(c => SwaggerConfig.Setup(c));
 //Auth
 JwtAuthConfig.Setup(builder.Services, builder.Configuration);
 
+//Policy
+PolicyAuthConfig.Setup(builder.Services);
+
 //DI
 ConfigureDi.Setup(builder.Services);
 
