@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ProjectEvaluation
+/.vs/Session7/DesignTimeBuild
+/.vs/Session7/FileContentIndex
+/.vs/Session7/v17
+/.vs/Session7/config
+/Common/bin/Debug/net6.0
+/Common/obj
+/Infrastructure/bin/Debug/net6.0
+/Infrastructure/obj
+/Model/bin/Debug/net6.0
+/Model/obj
+/Service/bin/Debug/net6.0
+/Service/obj
+/Session7/bin/Debug/net6.0
+/Session7/obj
