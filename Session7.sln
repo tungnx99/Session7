@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session7", "Session7\Session7.csproj", "{087A6858-3B06-40AF-8467-BEB40C21EDC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthWebAPI", "Session7\AuthWebAPI.csproj", "{087A6858-3B06-40AF-8467-BEB40C21EDC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{0D04946E-2ABF-4B4C-BA0C-11A6151D0D30}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{A2C1E9A1-71ED-47E5-80F7-BED70D89D400}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{E63B9E29-BBE9-4973-B37A-C7CBECAF2419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{F8D8A17F-9CF7-480D-AA37-BDC5D455491C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTvsRESTful", "RESTvsRESTful\RESTvsRESTful.csproj", "{CCB53831-AACE-4F50-86BA-372298E23FF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +43,19 @@ Global
 		{E63B9E29-BBE9-4973-B37A-C7CBECAF2419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E63B9E29-BBE9-4973-B37A-C7CBECAF2419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E63B9E29-BBE9-4973-B37A-C7CBECAF2419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB53831-AACE-4F50-86BA-372298E23FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB53831-AACE-4F50-86BA-372298E23FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB53831-AACE-4F50-86BA-372298E23FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB53831-AACE-4F50-86BA-372298E23FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{087A6858-3B06-40AF-8467-BEB40C21EDC3} = {F8D8A17F-9CF7-480D-AA37-BDC5D455491C}
+		{0D04946E-2ABF-4B4C-BA0C-11A6151D0D30} = {F8D8A17F-9CF7-480D-AA37-BDC5D455491C}
+		{EB388078-CF71-412C-A79F-46D3A860B447} = {F8D8A17F-9CF7-480D-AA37-BDC5D455491C}
+		{A2C1E9A1-71ED-47E5-80F7-BED70D89D400} = {F8D8A17F-9CF7-480D-AA37-BDC5D455491C}
+		{E63B9E29-BBE9-4973-B37A-C7CBECAF2419} = {F8D8A17F-9CF7-480D-AA37-BDC5D455491C}
 	EndGlobalSection
 EndGlobal
